@@ -1,0 +1,42 @@
+; ---------------------------------------------------------------------------
+;
+;     SIZEWIN.DEF
+;
+;     SizeWin - OS/2 Presentation Manager Window Sizing Tool
+;
+;     Copyright 1994 by David B. Kumhyr
+;
+;     All rights reserved under U.S. and international copyright laws.
+;     FreeWare application, Free use and distribution is encouraged.
+;
+;     Copyright owner : David B. Kumhyr
+;                       Fuquay-Varina, NC 27526
+;
+;     Author(s) ......: David B. Kumhyr
+;     Date ...........: 04Nov93
+;     Operating system: OS/2 2.1
+;     Version control : SCCS
+;     Compiler vers ..: Borland C++ 1.0
+;     Make files .....: SIZEWIN.PRJ
+;
+; ---------------------------------------------------------------------------
+;
+;     Date last update: 29Nov22
+;     Programmer .....: David B. Kumhyr
+;     Version control : GIT
+;     Changes made ...: Updated address and contact info
+;						david_kumhyr@yahoo.com
+;
+; ---------------------------------------------------------------------------
+
+NAME SizeWin WINDOWAPI
+
+DESCRIPTION 'Copyright 1994, David B. Kumhyr, OS/2 PM Window Sizing Tool, FreeWare'
+
+CODE    MOVEABLE
+DATA    MOVEABLE MULTIPLE
+
+HEAPSIZE  10000
+STACKSIZE 20000
+
+
